@@ -56,7 +56,7 @@ Model can be evaluated by metric such as:
 
 To study the separation distance between the clusters formed by the algorithm silhouette analysis could be used. The distance between the cluster can be calculated by different types of distance metrics (Euclidean, Manhattan, Minkowski, Hamming). Silhouette score returns the average silhouette coefficient applied on all the samples.
 
-silhouette score = p−q / max(p,q)
+**silhouette score = p−q / max(p,q)**
 
 p is the mean distance to the points in the nearest cluster that the data point is not a part of
 
@@ -64,9 +64,10 @@ q is the mean intra-cluster distance to all the points in its own cluster.
 
 The value of the silhouette score range lies between -1 to 1.
 
-A score closer to 1 indicates that the data point is very similar to other data points in the cluster.
+* A score closer to 1 indicates that the data point is very similar to other data points in the cluster.
 
-A score closer to -1 indicates that the data point is not similar to the data points in its cluster.
+* A score closer to -1 indicates that the data point is not similar to the data points in its cluster.
+
 
 To study the separation distance between the clusters formed by the algorithm silhouette analysis could be used.
 
